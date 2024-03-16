@@ -10,5 +10,5 @@
 !.zsh_aliases
 !.p10k.zsh
 
-# track scripts folder and everything inside
-!.zsh/scripts/**/*
+# track .zsh folder and everything inside it
+!.zsh/**/*
