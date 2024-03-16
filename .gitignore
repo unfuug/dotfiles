@@ -12,3 +12,9 @@
 
 # track .zsh folder and everything inside it
 !.zsh/**/*
+
+# track setup script
+!setup-zsh.sh
+
+# Track README
+!README.md
