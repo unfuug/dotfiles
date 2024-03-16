@@ -20,3 +20,7 @@ Copy or symlink the dotfiles in your home directory. Or use the `setup-zsh.sh` t
 ```bash
 chmod +x setup-zsh.sh && ./setup-zsh.sh
 ```
+To permanently change your shell to zsh, run:
+```bash
+chsh -s $(which zsh) <your username>
+```
