@@ -1,0 +1,14 @@
+# setup gitignore as whitelist
+*
+!*/
+
+# track this file
+!.gitignore
+
+# track .zshrc .zsh_aliases and .p10k.zsh
+!.zshrc
+!.zsh_aliases
+!.p10k.zsh
+
+# track scripts folder and everything inside
+!.zsh/scripts/**/*

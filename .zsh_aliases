@@ -1,0 +1,56 @@
+# ls
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+alias ll='ls -alhF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# some handy aliases
+alias open='xdg-open'
+alias show='open .'
+
+# zoxide with additions
+alias jl='function _(){ j $1 && ll }; _'
+
+# update
+alias update='sudo apt update'
+alias upgrade='sudo apt update && sudo apt upgrade -y'
+
+# run docker & fastboot as root
+#alias docker='sudo docker'
+#alias fastboot='sudo fastboot'
+
+# lineage docker aliases
+alias lineage-start='docker start lineage && docker attach lineage'
+
+# make zoxide available through z and j
+alias j='z'
+alias ji='zi'
+
+# Flatpak aliases
+# alias atom='flatpak run io.atom.Atom'
+
+# NBFC
+#alias nbfc='mono /opt/nbfc/nbfc.exe'
+
+# notification sync
+alias gnome-sync-up='busctl --user call org.gnome.Shell /io/elhan/ExtensionsSync io.elhan.ExtensionsSync save'
+alias gnome-sync-down='busctl --user call org.gnome.Shell /io/elhan/ExtensionsSync io.elhan.ExtensionsSync read'
+
+# run vs code under native wayland
+# alias code='code --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations'
+
+# alias for ectool fwcharge
+alias fwcl='function _(){ sudo fw-ectool fwchargelimit $1 }; _'
