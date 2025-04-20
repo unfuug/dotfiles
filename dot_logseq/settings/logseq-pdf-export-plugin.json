@@ -1,0 +1,27 @@
+{
+  "retainedOptions": [
+    "Hide Page Properties",
+    "Make Bullets Black",
+    "Hide Linked References",
+    "Hide Brackets"
+  ],
+  "template1CSS": "",
+  "template1Choice": "Bullets for non top level elements",
+  "template1Options": [
+    "Inherit logseq CSS"
+  ],
+  "template2CSS": "",
+  "template2Choice": "Bullets througout the document",
+  "template2Options": [
+    "Inherit logseq CSS"
+  ],
+  "template3CSS": "",
+  "template3Choice": "Bullets for non top level elements",
+  "template3Options": [
+    "Hide Page Properties",
+    "Inherit logseq CSS",
+    "Hide Brackets"
+  ],
+  "blockExportHandling": "Keep title as name of page",
+  "disabled": false
+}

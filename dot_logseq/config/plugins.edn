@@ -1,0 +1,13 @@
+{:logseq-pdf-export-plugin {:version "2.2.10", :repo "sawhney17/logseq-pdf-export", :effect true, :theme false}
+ :gruvbox-theme {:version "v0.1.9", :repo "OddDev/oddbox", :effect false, :theme true}
+ :logseq-tags {:version "v0.1.2", :repo "gidongkwon/logseq-plugin-tags", :effect false, :theme false}
+ :logseq-anki-sync {:version "v6.4.5", :repo "debanjandhar12/logseq-anki-sync", :effect true, :theme false}
+ :logseq-emoji-picker-fork {:version "v0.0.6", :repo "walsvid/logseq-emoji-picker-fork", :effect false, :theme false}
+ :logseq-copy-code-plugin {:version "v.1.2.0", :repo "vyleung/logseq-copy-code-plugin", :effect true, :theme false}
+ :logseq-tabler-picker {:version "v1.4.0", :repo "yoyurec/logseq-tabler-picker", :effect true, :theme false}
+ :logseq-bullet-threading {:version "v1.1.4", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-awesome-props {:version "v1.10.0", :repo "yoyurec/logseq-awesome-props", :effect true, :theme false}
+ :logseq-awesome-links {:version "v1.15.16", :repo "yoyurec/logseq-awesome-links", :effect true, :theme false}
+ :logseq-awesome-styler {:version "v3.7.1", :repo "yoyurec/logseq-awesome-styler", :effect true, :theme false}
+ :logseq-todo-plugin {:version "v1.22.0", :repo "ahonn/logseq-plugin-todo", :effect true, :theme false}
+ :logseq-done-time {:version "v1.0", :repo "mjs/logseq-done-time", :effect false, :theme false}}

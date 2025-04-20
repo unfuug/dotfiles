@@ -1,0 +1,29 @@
+{
+  "theme": null,
+  "themes": {
+    "mode": "dark",
+    "light": {
+      "name": "Sepia",
+      "url": "assets:///home/lutz/.logseq/plugins/logseq-bujo-theme/src/light-sepia.css",
+      "description": "Sepia",
+      "mode": "light",
+      "pid": "logseq-bujo-theme",
+      "selected": false
+    },
+    "dark": {
+      "name": "OddBox",
+      "url": "assets:///home/lutz/.logseq/plugins/gruvbox-theme/gruvbox.css",
+      "description": "A theme based on the popular Gruvbox color palette.",
+      "mode": "dark",
+      "pid": "gruvbox-theme",
+      "selected": false
+    }
+  },
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-todo-plugin:logseq-plugin-todo",
+    "logseq-anki-sync:logseq-anki-sync",
+    "logseq-tags:tags-plugin-open",
+    "logseq-pdf-export-plugin:logseq-pdf-export-plugin"
+  ]
+}
