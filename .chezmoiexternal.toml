@@ -22,3 +22,9 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
+[".adb"]
+    type = "archive"
+    url = "https://dl.google.com/android/repository/platform-tools-latest-linux.zip"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
